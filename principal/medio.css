@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1670px) {
+        .mixes {
+            margin-top: 200px;
+        }
+
+        .pastas_baixo {
+            width: 380px;
+        }
+
+        #musicas_curtidas, #travis_scott, #billie_eilish {
+            width: 380px;
+        }
+
+    #container_mixes {
+        height: 260px;
+        margin-top: 50px;
+    }
+
+    .play_hover {
+        margin-left: 320px;
+    }
+
+    #play_hover_2:hover {
+        margin-left: 319px;
+    }
+
+    #mix_pop, #mix_rock, #mix_relax, #mix_feliz, #mix_veigh, #mix_hiphop {
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+
+    #separar {
+        width: 100px;
+        height: 100px;
+        margin-top: 200px;
+    }
+
+}   
