@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="medio.css">
+    <link rel="stylesheet" href="pequeno.css">
+    <link rel="stylesheet" href="tablet.css">
+    <link rel="stylesheet" href="mobile.css">
+    <title>Minhas Musicas</title>
+</head>
+<body id="bosta" style="transition: 2s;">
+    <div id="container_left">
+        <div id="fundo"></div>
+        <div id="bolinhas">
+            <div class="bolinhas"></div>
+            <div class="bolinhas"></div>
+            <div class="bolinhas"></div>
+        </div>
+        <ul id="lista_cima">
+            <li class="lc"><img src="../img/icons8-casa-24 (1).png" alt="casinha" id="casinha">Início</li>
+            <li class="lc"><img src="../img/icons8-pesquisar-24.png" alt="lupa" id="lupa"><img src="../img/icons8-abrir-pasta-24.png" alt="Buscar" id="pasta">Buscar</li>
+            <li class="lc">Suabiblioteca</li>
+        </ul>
+        <ul id="lista_meio">
+            <li class="lm"><div id="adicionar"><p>+</p></div> Criar playlist</li>
+            <li class="lm">
+                <a href="links_pastas/curtidas/curtidas.html" rel="next">
+                <div id="gostei"><img src="../img/icons8-white-heart-48.png" alt="coração" id="coracao"></div>
+                    Musicas Curtidas</li>
+                </a>
+        </ul>
+        <div id="linha"></div>
+        <ul id="lista_baixo">
+            <li class="lb">Minha playlis</li>
+            <li class="lb">Maloka_zs</li>
+            <li class="lb">Eu sou do rock</li>
+        </ul>
+    </div>
+
+    <header>
+        <div class="setas" id="seta_escquerda">
+            <p id="menor_que">&lt;</p>
+        </div>
+        <div class="setas" id="seta_direita">
+            <p id="maior_que">&gt;</p>
+        </div>
+        <div id="user">
+            <div id="bolinha_usuario">
+                <img src="../img_midia/icons8-usuário-24.png" alt="usuario" id="usuario">
+            </div>
+            <p>Matheus</p>
+            <img src="../img_midia/icons8-reproduzir-24.png" alt="seta baixo" id="seta">
+        </div>
+        <div id="banner_meio">
+            <div id="meio_banenr">
+                <a href="links_pastas/rock/rock.html"><img src="../img_boa_tarde/Aqui e o rock porra.jpg" alt="pagode" id="img_pagode"></a>
+                <div id="text_ludi">
+                    <a href="links_pastas/rock/rock.html">
+                        <p class="text_ludi" id="first_ludi">Aqui é do rock kkkkk</p>
+                    </a>
+                    <p class="text_ludi" id="sec_ludi">Ouça os sucessos Aqui é do rock kkkkk na playlist mais TOP do Spotify!</p>
+                </div>
+                <a href="links_pastas/rock/rock.html" id="rock_a">
+                    <div class="botao" id="botao_play">
+                        <p>Play</p>
+                    </div>
+                </a>
+                <div class="botao" id="botao_seguir">
+                    <p>Seguir</p>
+                </div>
+                <p id="tres_pontos">...</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h2 id="h2_horas">Boa noite</h2>
+        <div id="container_pastas">
+            <a href="links_pastas/curtidas/curtidas.html" rel="prev">
+                <div class="pastas_cima" id="musicas_curtidas">
+                    <div id="gostei_curtidas"><img src="../img/icons8-white-heart-48.png" alt="coração" id="coracao_curtidas"></div>
+                    <p class="titulo_pasta">Músicas Curtidas</p>
+                    <div id="play_hover_2" class="play_hover">
+                        <img src="../img_midia/icons8-reproduzir-24 (1).png" alt="reproduzir" id="seta_play">
+                    </div>
+                </div>
+            </a>
+
+            <a href="links_pastas/travis/travis.html">
+                <div class="pastas_cima" id="travis_scott" onmouseenter="mudarCor()" onmouseleave="voltarCor()">
+                    <img src="../img_boa_tarde/travis_verde.png" alt="travis scott" id="travis">
+                    <p class="titulo_pasta">Travis Scott</p>
+                    <div id="play_hover_2" class="play_hover">
+                        <img src="../img_midia/icons8-reproduzir-24 (1).png" alt="reproduzir" id="seta_play">
+                    </div>
+                </div>
+            </a>
+
+            <a href="links_pastas/billie/billie.html" rel="nex">
+                <div class="pastas_cima" id="billie_eilish">
+                    <img src="../img_boa_tarde/billie.png" alt="billie" id="billie">
+                    <p class="titulo_pasta">This is Billie Eilish</p>
+                    <div id="play_hover_2" class="play_hover">
+                        <img src="../img_midia/icons8-reproduzir-24 (1).png" alt="reproduzir" id="seta_play">
+                    </div>
+                </div>
+            </a>
+
+
+
+            <a href="links_pastas/scorpions/scorpions.html">
+                <div class="pastas_baixo" id="dos_predios">
+                    <img src="../img_boa_tarde/scorpions.png" alt="dos predios" id="predios">
+                    <p class="titulo_pasta">This is Scorpions</p>
+                    <div id="play_hover_2" class="play_hover">
+                        <img src="../img_midia/icons8-reproduzir-24 (1).png" alt="reproduzir" id="seta_play">
+                    </div>
+                </div>
+            </a>
+
+            <a href="links_pastas/hiphop/hiphop.html">
+                <div class="pastas_baixo" id="Drake">
+                    <img src="../img_boa_tarde/racionais.png" alt="Drake" id="drake">
+                    <p class="titulo_pasta">Mix hip hop</p>
+                    <div id="play_hover_2" class="play_hover">
+                        <img src="../img_midia/icons8-reproduzir-24 (1).png" alt="reproduzir" id="seta_play">
+                    </div>
+                </div>
+            </a>
+
+            <a href="links_pastas/rock/rock.html" rel="next">
+                <div class="pastas_baixo" id="lil_nas_x">
+                    <img src="../img_boa_tarde/Aqui e o rock porra.jpg" alt="lil nas x" id="lil">
+                    <p class="titulo_pasta">Aqui é do rock kkkkk</p>
+                    <div id="play_hover_2" class="play_hover">
+                        <img src="../img_midia/icons8-reproduzir-24 (1).png" alt="reproduzir" id="seta_play">
+                    </div>
+                </div>
+            </a>
+
+
+        </div>
+        <h2>Seus mixes ouvidos</h2>
+        <div id="container_mixes">
+            <div class="mixes" id="mix_pop">
+                <img src="../img_mixes/pop.png" alt="mix pop" id="img_pop">
+                <div id="play_mixes">
+                    <img src="../img_midia/icons8-reproduzir-24 (1).png" alt="play" id="seta_reproduzir">
+                </div>
+                <div id="cont_pop">
+                    <div class="faicha" id="faicha_pop"></div>
+                    <div class="faicha2" id="faicha_pop"></div>
+                    <h3>Mix pop</h3>
+                    <p>Lil Nas X, Black Eyed Peas, Justin Bieber e...</p>
+                </div>
+            </div>
+
+            <div class="mixes" id="mix_rock">
+                <img src="../img_mixes/mix do veigh.jpeg" alt="mix rock" id="img_rock">
+                <div id="play_mixes">
+                    <img src="../img_midia/icons8-reproduzir-24 (1).png" alt="play" id="seta_reproduzir">
+                </div>
+                <div id="cont_rock">
+                    <div class="faicha" id="faicha_rock"></div>
+                    <div class="faicha2" id="faicha_rock"></div>
+                    <h3>Mix rock</h3>
+                    <p>Scorpions, Red Hoy Chili Peppers, kansas...</p>
+                </div>
+            </div>
+
+            <div class="mixes" id="mix_relax">
+                <img src="../img_mixes/top.jpg" alt="mix pop" id="img_relax">
+                <div id="play_mixes">
+                    <img src="../img_midia/icons8-reproduzir-24 (1).png" alt="play" id="seta_reproduzir">
+                </div>
+                <div id="cont_relax">
+                    <div class="faicha" id="faicha_relax"></div>
+                    <div class="faicha2" id="faicha_relax"></div>
+                    <h3>Mix relax</h3>
+                    <p>Twenty One Pilots, Post Malone, The Weeknd...</p>
+                </div>
+            </div>
+
+            <div class="mixes" id="mix_feliz">
+                <img src="../img_mixes/avicii.jpeg" alt="mix pop" id="img_feliz">
+                <div id="play_mixes">
+                    <img src="../img_midia/icons8-reproduzir-24 (1).png" alt="play" id="seta_reproduzir">
+                </div>
+                <div id="cont_feliz">
+                    <div class="faicha" id="faicha_feliz"></div>
+                    <div class="faicha2" id="faicha_feliz"></div>
+                    <h3>Mix feliz</h3>
+                    <p>Avicii, Doja Cat, Dua Lipa e mais</p>
+                </div>
+            </div>
+
+            <div class="mixes" id="mix_veigh">
+                <img src="../img_mixes/mix do veigh.jpeg" alt="mix pop" id="img_veigh">
+                <div id="play_mixes">
+                    <img src="../img_midia/icons8-reproduzir-24 (1).png" alt="play" id="seta_reproduzir">
+                </div>
+                <div id="cont_veigh">
+                    <h3>Mix de Veigh</h3>
+                    <p>WIU, Tx da Coronel e KayBlack</p>
+                </div>
+            </div>
+
+            <div class="mixes" id="mix_hiphop">
+                <img src="../img_mixes/outkast.jpeg" alt="mix pop" id="img_hiphop">
+                <div id="play_mixes">
+                    <img src="../img_midia/icons8-reproduzir-24 (1).png" alt="play" id="seta_reproduzir">
+                </div>
+                <div id="cont_pop">
+                    <div class="faicha" id="faicha_hiphop"></div>
+                    <div class="faicha2" id="faicha_hiphop"></div>
+                    <h3>Mix hip hop</h3>
+                    <p>Outkast, 50 Cent, Drake e mais</p>
+                </div>
+            </div>
+        </div>
+        <div id="separar"></div>
+    </main>
+    <footer>
+        
+        <div id="center_footer">
+            <div id="center_up">
+                <img src="../img_midia/icons8-embaralhar-32.png" alt="embaralhar" id="embaralhar">
+                <img src="../img_midia/icons8-voltar-64 (1).png" alt="voltar" id="voltar">
+                <img src="../img_midia/icons8-botão-_play_-dentro-de-um-círculo-50 (1).png" alt="play" id="play">
+                <img src="../img_midia/icons8-voltar-64 (1).png" alt="avancar" id="avancar">
+                <img src="../img_midia/icons8-repetir-um-30.png" alt="repetir" id="repetir">
+            </div>
+            <div id="center_down">
+                <p id="tf">0:00</p>
+                <div id="linha_do_tempo"></div>
+                <p id="ts">0:00</p>
+            </div>
+        </div>
+        <div id="right_footer">
+            <img class="espaco_icons" src="../img_midia/icons8-microfone-2-24.png" alt="microfone" id="mic">
+
+            <img class="espaco_icons" src="../img_midia/icons8-menu-arredondado-50.png" alt="menu" id="menu">
+
+            <img class="espaco_icons" src="../img_midia/icons8-vários-dispositivos-50.png" alt="dispositivos" id="dispositivos">
+
+            <img class="espaco_icons" src="../img_midia/icons8-volume-baixo-24 (1).png" alt="volume" id="volume">
+
+            <div id="barra_volume"></div>
+
+        </div>
+    </footer>
+    <script src="java.js"></script>
+</body>
+</html>
