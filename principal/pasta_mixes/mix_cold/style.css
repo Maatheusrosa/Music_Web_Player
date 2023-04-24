@@ -1,0 +1,167 @@
+@charset "UFT-8";
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: rgb(16, 16, 16);
+}
+
+#travis_scott:hover #banner_meio{
+    color: black;
+}
+
+#container_left {
+    background-color: rgb(0, 0, 0);
+    width: 250px;
+    position: fixed;
+    height: 100vh;
+    margin-bottom: 0px;
+    color: white;
+}
+
+
+#casinha {
+    position: absolute;
+    top: 35px;
+    left: 20px;
+}
+
+#lupa {
+    position: absolute;
+    top: 78px;
+    left: 20px;
+}
+
+#pasta {
+    position: absolute;
+    top: 120px;
+    left: 20px;
+}
+
+#adicionar {
+    border-radius: 3px;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 210px;
+    left: 20px;
+    background-color: rgb(212, 212, 212);
+}
+
+
+#adicionar > p {
+    color: gray;
+    font-size: 25px;
+    text-align: center;
+}
+
+#gostei {
+    border-radius: 3px;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 20px;
+    left: -40px;
+    background-image: linear-gradient(to bottom right, rgb(0, 2, 128), rgb(113, 185, 179));
+}
+
+#coracao {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    left: 6px;
+    top: 6px;
+}
+
+
+    div#bolinhas {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+        div.bolinhas {
+            width: 4px;
+            height: 4px;
+            background-color: white;
+            display: inline-block;
+            border-radius: 50%;
+        }
+
+    ul#lista_cima {
+        margin-top: -10px;
+        font-size: 14px;
+    }
+
+        li.lc {
+            margin-left: 60px;
+            list-style-type: none;
+            font-weight: bold;
+            margin-top: 25px;
+            color: rgb(204, 204, 204);
+        }
+
+        li.lc:hover {
+            color: white;
+            cursor: pointer;
+        }
+
+    ul#lista_meio {
+        margin-top: 75px;
+        font-size: 14px;
+    }
+
+        li.lm {
+            margin-left: 60px;
+            list-style-type: none;
+            font-weight: bold;
+            color: rgb(204, 204, 204);
+        }
+
+        li.lm:hover {
+            color: white;
+            cursor: pointer;
+        }
+
+    div#linha {
+        width: 225px;
+        height: 1px;
+        background-color: rgba(255, 255, 255, 0.212);
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    ul#lista_baixo {
+        margin-top: 20px;
+    }
+
+        .lb {
+            margin-left: 20px;
+            list-style-type: none;
+            margin-top: 10px;
+            color: rgb(204, 204, 204);
+            font-size: 15px;
+        }
+
+        .lb:hover {
+            color: white;
+            cursor: default;
+        }
+
+
+iframe {
+    width: 60vw;
+    margin-left: 280px;
+    margin-top: 20px;
+    height: 3250px;
+    margin-bottom: 100px;
+}
+
+a {
+    text-decoration: none;
+}

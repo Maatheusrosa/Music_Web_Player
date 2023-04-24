@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+
+header {
+    margin-left: 250px;
+    height: 370px;
+    background-image: linear-gradient(to bottom, rgb(204, 155, 192), rgb(196, 159, 196));
+}
+
+#img_curtidas {
+    width: 200px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.24);
+}
+
+#infos_playlist {
+    width: 590px;
+    height: 220px;
+    margin-top: 120px;
+    margin-left: 30px;
+    position: absolute;
+}
+
+#text_playlist {
+    color: white;
+    margin-top: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 220px;
+}
+
+h2 {
+    font-size: 30pt;
+}
