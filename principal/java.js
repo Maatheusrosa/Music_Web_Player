@@ -11,28 +11,3 @@ if (horas > 6 && horas < 12) {
 }
 
 
-var travis = document.getElementById('travis_scott')
-var body = document.getElementById('bosta')
-var verme = document.getElementById('banner_meio')
-
-function mudarCor() {
-    verme.style.backgroundImage = "linear-gradient(to bottom left, rgb(13, 61, 27), rgb(4, 17, 5), black)"
-    document.body.style.backgroundImage = "linear-gradient(to bottom, rgb(13, 61, 27), rgb(4, 17, 5), rgb(16, 16, 16), rgb(16, 16, 16), rgb(16, 16, 16))"
-}
-
-function voltarCor() {
-    verme.style.backgroundImage = "linear-gradient(to bottom left, rgb(18, 18, 100), rgb(2, 4, 32), black)"
-    document.body.style.backgroundImage = "linear-gradient(to bottom, rgb(7, 7, 88), rgb(11, 11, 34), rgb(16, 16, 16), rgb(16, 16, 16), rgb(16, 16, 16))"
-}
-
-var Billie = document.getElementById('billie_eilish')
-
-function mudarCorBillie() {
-    verme.style.backgroundImage = "linear-gradient(to bottom left, rgb(206, 138, 212), rgb(90, 53, 97), rgb(29, 21, 31), black)"
-    document.body.style.backgroundImage = "linear-gradient(to bottom, rgb(214, 152, 216), rgb(57, 34, 59), rgb(16, 16, 16), rgb(16, 16, 16), rgb(16, 16, 16))"
-}
-
-function voltarCorBillie() {
-    verme.style.backgroundImage = "linear-gradient(to bottom left, rgb(18, 18, 100), rgb(2, 4, 32), black)"
-    document.body.style.backgroundImage = "linear-gradient(to bottom, rgb(7, 7, 88), rgb(11, 11, 34), rgb(16, 16, 16), rgb(16, 16, 16), rgb(16, 16, 16))"
-}
